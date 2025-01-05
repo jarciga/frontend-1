@@ -1,0 +1,93 @@
+/*
+ Theme Name:   allup Child Theme
+ Template:     wp-bootstrap-starter
+ Version:      1.0.0
+*/
+
+@import url("../wp-bootstrap-starter/style.css");
+
+body { font-family:calibri; background:#efefef; color:#000000; }
+
+header#masthead { background-color:#ffffff !important; padding:1.5rem 0px !important; }
+
+body:not(.theme-preset-active) footer#colophon { background-color: #333 !important; 
+color:#ffffff; }
+#searchform input { border:1px solid #98a6b3 !important; color:#000000; ; border-radius:0px; box-shadow:none; padding:7px 30px 7px 7px; background:url("../../uploads/2020/08/20x20-search.png"); background-repeat:no-repeat; background-position: right 10px top 7px;  }
+i.social-icon { background:url("../../uploads/2020/08/Social-Media.png"); height:40px; width:40px; display:inline-block; margin:0px 3px; }
+i.fb { background-position:0px 0px; }
+i.twt { background-position:-81px 0px; }
+i.in { background-position:-162px 0px; }
+i.chk { background-position:-103px 0px; }
+i.ytb { background-position:-121px 0px; }
+i.ig { background-position:-40px 0px; }
+footer h5 { color:#276096; padding:0px 0px 15px 0px; font-weight:normal; font-size:22px; margin-bottom:15px; font-family:"Arial Narrow", Arial, sans-serif; font-weight:bold; }
+.readmore { width:150px; height:auto; background-color:#276096;  padding:7px 10px; vertical-align:center; font-family:"Arial Narrow", Arial, sans-serif; font-weight:bold; }
+#mega-menu-wrap-primary #mega-menu-primary { padding:0px 1px 0px 0px; }
+#mega-menu-primary > li:last-child a { padding-right:20px !important; }
+.readmore a { color:#ffffff; font-size:16px; }
+
+.footer-header { background-color:#276096; padding:0px 20px; font-size:20px; margin-bottom:5px; font-family:"Arial Narrow", Arial, sans-serif; font-weight:bold; }
+.si-container { border-bottom:2px solid #276096; padding:0px 15px; }
+
+.sub-title { color:#276096 !important; font-family:"Arial Narrow", Arial, sans-serif; font-weight:bold; }
+.menu-width { width:540px; }
+#page-sub-header { height:730px; padding-top:20px; }
+#content.site-content { padding:0px !important; }
+h3.banner-title { font-weight:normal; color:#ffffff; font-size:40px; font-family:"Arial Narrow", Arial, sans-serif; }
+.banner-text { font-size:12px; }
+main { margin-top:-25px; }
+.ul-blue { color:#276096; font-size:20px; list-style-type:square; padding:0px 20px 0px; line-height:18px; }
+.ul-blue li { margin-bottom:0px; }
+.ul-blue li span { font-size:12px !important; color:#000000 !important; line-height:16px; }
+.tbl-project thead th { padding:0px 10px; background:#276096; color:#ffffff; }
+.tbl-project tbody td { padding:0px 10px; border-bottom:1px solid #ccc; }
+h3.process-title { font-size:12px; color:#276096; }
+.text-blue { color:#276096; }
+#pg-172-0, #pg-23-0, #pg-178-0, #pg-117-1, #pg-14-0, #pg-31-0, #pg-180-0, #pg-111-0, #pg-25-0, #pg-174-0,#pg-108-1, #pg-170-0 { margin-bottom:0px !important; }
+@media (min-width: 1200px) { .container { max-width:1340px; } }
+.p-text { font-size:12px; line-height:16px; }
+footer { font-size:12px; line-height:16px; padding-bottom:30px; }
+.border-bot-ccc { border-bottom:1px solid #333; }
+.benefication-text { font-size:11px; }
+.v-yt { width:640px; height:343px; }
+.font-calibri { font-family:calibri !important; }
+.youtube-player {
+  position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	height: 0;
+	margin-bottom:15px;
+}
+.youtube-player iframe {
+  position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+ul.News_List { list-style-type:none !important; padding:0px; font-size:12px; padding-top:20px; border-top:1px solid #ccc; border-bottom:1px solid #ccc; }
+ul.News_List li { margin-bottom:28px; }
+ul.News_List span, ul.News_Thumb span { font-weight:bold; }
+ul.News_Thumb { list-style-type:none !important; padding:0px; font-size:12px; }
+ul.News_Thumb p { border-bottom:1px solid #ccc; padding:20px 0px; }
+.email-subscribe input[type=email] { border:1px solid #ccc; padding:12px; font-size:13px; border-radius:0px; width:100%; }
+.email-subscribe .email-submit {  padding:12px 15px; 
+    background:#009933; 
+    border:0 none;
+    cursor:pointer;
+    color:#fff;
+    text-align:center;
+    width:100%;
+    font-size:13px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;  }
+
+.email-subscribe-notification { padding:40px; }
+.email-subscribe-notification p { font-size:12px !important; font-weight:bold !important; margin:10px 0px !important; }
+.email-subscribe-notification .readmore { color:#fff !important; font-size:12px !important; }
+.page-paginate span, .page-paginate a { margin:0px 20px;}
+
+
+
+
+.con-text-blue { border-top:1px solid #276096; border-bottom:1px solid #276096; padding:20px 0px; }
