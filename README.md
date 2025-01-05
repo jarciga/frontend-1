@@ -2,4 +2,4 @@
 Website front-end conversion.
 
 ### Technologies:
-Wordpress, PHP, HTML, JS
+Wordpress, PHP, HTML, CSS, JS
