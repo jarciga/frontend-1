@@ -1,5 +1,5 @@
 # frontend-1
-Website front-end conversion
+Website front-end conversion.
 
 ### Technologies:
-Wordpress, PHP, HTML, JS.
+Wordpress, PHP, HTML, JS
